@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+
+    <title>Flickr Image Gallery</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+          <span class="navbar-brand">Flickr Gallery</span>
+        </div>
+</nav>
+
+<div id="search-container" class="container">
+        <div id="search" class="card card-body bg-light mb-2">
+            <h4>Search Photo</h4>
+                    <!-- search-form -->
+                    <form id="search-form">
+                        <!-- first input field -->
+                        <div class="form-group">
+                            <input type="text" id="search-input" class="form-control mb-3" placeholder="Enter Term...">
+                        </div>
+                        <!-- check boxes -->
+                        
+                     
+                        <button type="submit" class="btn btn-dark btn-block mt-4">Search</button>
+                    </form>
+        </div>
+      <br>
+
+
+<div id="flickr" />
+
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript"   src="js/main.js"></script>
+<script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true,
+          'maxWidth':1000,
+          'maxHeigh':1000,
+
+
+
+        })
+    </script>
+
+</body>
+</html>

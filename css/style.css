@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+
+.gallery{
+    margin:10px 30px;
+}
+ img{
+    width: 300px;
+    padding: 5px;
+    transition : 1s;
+}
+
+ img:hover {
+    filter:grayscale(0);
+    transition: scale(1.1);
+}
